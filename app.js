@@ -14,7 +14,11 @@ function Users({data}) {
                             <br />
                             <b>Website:</b> {users.website}
                             <br />
+                            <b>City: </b>{users.address.city}
                         </p>
+                        
+                           
+                        
                     </div>
                 </div>
                 );
